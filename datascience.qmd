@@ -1,0 +1,52 @@
+---
+title: "homework1"
+format: html
+editor: visual
+---
+
+##  Some Questions
+
+### *1.What do you think being a data scientist is about?*
+
+#### A data scientist is the person who deals with data, gets insights through exploratory analysis and dive deeper into data to discover pattern we don't easily see.
+
+### *2. What differences/ similarities do you see between data scientists and statisticians?*
+
+#### Data scientists and statisticians both deal with data and anaylze data. Statisitcians usually bring data to model and mainly focus on modeling. While data scientists mainly bring model to data and focus on business problems and results.
+
+### *3. How do you view yourself in relation to these two areas?*
+
+#### Currently, I am still working on being a statistician and try to have a solid foundation of statistics knowledge.
+
+## Running Code
+
+### *Create y:*
+
+```{r}
+y <- density(iris$Sepal.Length)
+```
+
+### *The class of the object y:*
+
+```{r}
+class(y)
+```
+
+### *The type of the object y:*
+
+```{r}
+typeof(y)
+```
+
+### *The structure of object y:*
+
+```{r}
+str(y)
+```
+
+### *Plot function on y:*
+
+```{r}
+#| echo: false
+plot(y)
+```
